@@ -1,8 +1,8 @@
 # Simple Turing Machines
 
 ## Busy Beaver
-Busy beavers as implemented here are turing machines which run on a 1-dimensional tape.
-The tape is initialized with 0 and the turing machine reads and writes to the tape as per its set of instructions.
+Busy beavers as implemented here are Turing Machines which run on a 1-dimensional tape.
+The tape is initialized with 0 and the TM reads and writes to the tape as per its set of instructions.
 <br>
 Given an initial 'state' and a current position, the instruction set for each state tells the machine 
 what to write, where to move next and which state (and thus instruction set) to move to next.
@@ -42,8 +42,8 @@ python 3 (will probably work on 2 but haven't tested the array api for python2 w
 <br><br>
 
 ## Turmite
-A 2d version of the Busy Beaver formulation, this one is more fun as the visual patterns
-that emerge on 2-d graphs are more interesting than the 1d bb machines.
+A 2d version Turing Machine, similar to the Busy Beaver formulation, this one is more fun as the visual patterns
+that emerge on 2-d graphs are more interesting than the 1d BB machines.
 The script runs some standard machines which can be found at [5].
 The instruction sets for the given machines are in turmites.json along with a reccommended number ot iterations to run for. (As they don't have a halt state and will run forever).
 

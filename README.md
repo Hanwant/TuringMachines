@@ -36,8 +36,8 @@ The busy_beaver script is a simple implementation written in python. [1, 2, 3]
 Might write a C++ version in the future, but not really neccessary unless the script
 is extended to perform a search (I.e as in the Zany Zoo [4])
 
-Requirements:
-python 3
+Requirements:  
+python 3 (will probably work on 2 but haven't tested the array api for python2 which is being used here)
 
 <br><br>
 
@@ -47,7 +47,7 @@ that emerge on 2-d graphs are more interesting than the 1d bb machines.
 The script runs some standard machines which can be found at [5].
 The instruction sets for the given machines are in turmites.json along with a reccommended number ot iterations to run for. (As they don't have a halt state and will run forever).
 
-Some Examples:
+Some Examples:  
 <br>
 ![snowflake](/examples/snowflake.png)
 ![spiral](/examples/spiral.png)
@@ -56,13 +56,13 @@ Some Examples:
 ![barcode](/examples/barcode.png)
 
 
-Requirements:
-numpy == 1.18.1 (most versions should be fine)
-matplotlib == 3.1.3 (most versions should be fine)
+Requirements:  
+numpy == 1.18.1 (most versions should be fine)  
+matplotlib == 3.1.3 (most versions should be fine)  
 
 ## TODO
-	- Find new turmites
-	- Rewrite BB in C++ and consider implementing Zany Zoo (much pre-reading required)
+	- Find new turmites  
+	- Rewrite BB in C++ and consider implementing Zany Zoo (much pre-reading required)  
 
 
 

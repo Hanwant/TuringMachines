@@ -28,7 +28,7 @@ class Tape(MutableMapping):
         return self.tape[item]
 
     def __delitem__(self, item):
-        raise NotImplemented("deletion of tape memory is prohibited")
+        raise NotImplementedError("deletion of tape memory is prohibited")
 
     def __iter__(self):
         return iter(self.tape)
@@ -116,7 +116,6 @@ if __name__ == "__main__":
         i = 0
         while True:
             i += 1
-            # import ipdb; ipdb.set_trace()
             print(tape)
             beaver.read(tape)
             if i > LIMIT:

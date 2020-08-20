@@ -59,6 +59,7 @@ Some Examples:
 Requirements:  
 numpy == 1.18.1 (most versions should be fine)  
 matplotlib == 3.1.3 (most versions should be fine)  
+<br>
 
 ## TODO
 	- Find new turmites  

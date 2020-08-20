@@ -229,4 +229,4 @@ def main(name = "a", filepath = "turmites.json", PRINT=True, PLOT=True):
 
 
 if __name__ == "__main__":
-    main("snowflake", PRINT=False, PLOT=True)
+    main("box", PRINT=False, PLOT=True)

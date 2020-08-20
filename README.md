@@ -48,6 +48,7 @@ The script runs some standard machines which can be found at [5].
 The instruction sets for the given machines are in turmites.json along with a reccommended number ot iterations to run for. (As they don't have a halt state and will run forever).
 
 Some Examples:
+<br>
 ![snowflake](/examples/snowflake.png)
 ![spiral](/examples/spiral.png)
 ![fractal](/examples/fractal.png)

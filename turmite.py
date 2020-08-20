@@ -224,8 +224,9 @@ def main(name = "a", filepath = "turmites.json", PRINT=True, PLOT=True):
         print("steps: ", i, "score: ", np.sum(tape))
         if PLOT:
             plt.imshow(tape, cmap='binary')
+            plt.axis('off')
             plt.show()
 
 
 if __name__ == "__main__":
-    main("box", PRINT=False, PLOT=True)
+    main("snowflake", PRINT=False, PLOT=True)

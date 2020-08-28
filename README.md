@@ -18,9 +18,9 @@ where 1 indicated the state id; on which to call execute these instructions
 "112" is the instruction set for the case where the underlying value at the position is 0  
 "102" is the instruction set for the case where the underlying value at the position is 1  
 "112" instructs the machine to:  
-&nbsp;&nbsp;&nbsp;	write 1 to the position,   
-&nbsp;&nbsp;&nbsp;	move right ("1" for right, "0" for left),  
-&nbsp;&nbsp;&nbsp;	go to card for state 2  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	write 1 to the position,   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	move right ("1" for right, "0" for left),  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	go to card for state 2  
 
 The process stops once card 0 - the "Halt" state is reached.   
 The interesting part of this is in considering the domain of programs which can be coded 
